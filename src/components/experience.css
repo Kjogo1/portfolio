@@ -1,0 +1,17 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.w-30 {
+    max-width: 30rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .w-30 {
+        max-width: 20rem;
+    }
+}
