@@ -33,7 +33,7 @@ nav {
     background-color: #FDFD96;
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 15vh;
     transition: all 0.3s ease-in-out;
 }
 
@@ -102,7 +102,7 @@ a:hover {
 
 .menu-links {
     position: absolute;
-    top: 17%;
+    top: 15%;
     left: 0;
     /* right: 0; */
     width: 100%;
