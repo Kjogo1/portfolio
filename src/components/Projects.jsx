@@ -1,6 +1,7 @@
 import "./projects.css";
 import todo from '../assets/todos_project.png'
 import shopping from '../assets/shopping.png'
+import homepet from '../assets/homepet.png'
 
 function Projects() {
   return (
@@ -32,7 +33,7 @@ function Projects() {
 
         <div className="row">
           <span className="container-image">
-            <img src={todo} className="image"/>
+            <img src={homepet} className="image"/>
           </span>
           <span className="col">
             <span className="text-md start mb-10">Home Pet</span>
