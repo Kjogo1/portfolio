@@ -19,7 +19,7 @@ function Projects() {
       </div>
 
       <div className="row">
-          <span className="container-image">
+          <span className="container-image hoverImage">
             <img src={todo} className="image"/>
           </span>
           <span className="col">
@@ -32,7 +32,7 @@ function Projects() {
         </div>
 
         <div className="row">
-          <span className="container-image">
+          <span className="container-image hoverImage">
             <img src={homepet} className="image"/>
           </span>
           <span className="col">
@@ -45,7 +45,7 @@ function Projects() {
         </div>
 
         <div className="row">
-          <span className="container-image">
+          <span className="container-image hoverImage">
             <img src={shopping} className="image"/>
           </span>
           <span className="col">

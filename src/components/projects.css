@@ -33,6 +33,11 @@ span.start {
     margin-bottom: 1rem;
 }
 
+.hoverImage:hover {
+    transform: translateY(5%) translateX(5%);
+    transition: all 2s;
+}
+
 @media screen and (max-width: 800px) {
     div.row {
         display: flex;
@@ -61,6 +66,10 @@ span.start {
         /* margin: 1rem; */
         width: 100%;
         /* margin: auto; */
+    }
+
+    .text-md{
+        font-size: 1.5rem;
     }
 
 }

@@ -18,8 +18,8 @@ function Contact() {
           <span className="text-md">social</span>
           <span>
             <a href="https://t.me/MonDavid">
-              <img className="image-icon ml-5" src={telegram} />
-            </a>
+              <img className="image-icon ml-5 " src={telegram} />
+            </a>            
             <a href="https://www.linkedin.com/in/david-mon-5b836b283">
               <img className="image-icon ml-5" src={linkedin} />
             </a>
@@ -29,9 +29,8 @@ function Contact() {
           </span>
         </div>
       </span>
-
+      <hr className="mr-10 ml-10"></hr>
       <span>
-        <hr className="mr-10 ml-10"/>
         <span className="text-sm">© Copyright 2023. Made by Mon David</span>
       </span>
     </span>
